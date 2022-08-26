@@ -1,0 +1,504 @@
+html, body {
+    width: 100% !important;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'Graphik Regular';
+    src: url("fonts/GraphikRegular.otf"); 
+}
+@font-face {
+    font-family: 'Graphik Regular Italic';
+    src: url("fonts/GraphikRegularItalic.otf"); 
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("fonts/Montserrat-Bold.ttf"); 
+}
+@font-face {
+    font-family: 'Montserrat Extra Bold';
+    src: url("fonts/Montserrat-ExtraBold.ttf"); 
+}
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url("fonts/Montserrat-Light.ttf"); 
+}
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url("fonts/Montserrat-Medium.ttf"); 
+}
+@font-face {
+    font-family: 'Montserrat Semi Bold';
+    src: url("fonts/Montserrat-SemiBold.ttf"); 
+}
+.gRegular{
+    font-family: 'Graphik Regular'; 
+}
+.gRegularItalic{
+    font-family: 'Graphik Regular Italic';
+}
+.mBold{
+    font-family: 'Montserrat Bold';
+}
+.mExtraBold{
+    font-family: 'Montserrat Extra Bold';
+}
+.mLight{
+    font-family: 'Montserrat Light';
+}
+.mMedium{
+    font-family: 'Montserrat Medium';
+}
+.mSemiBold{
+    font-family: 'Montserrat Semi Bold';
+}
+/* BACKGROUNDS */
+.bg-index{
+    background-image: url('../img/bg-inicio.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.bg-gris{
+    background-color: #EAEAEA;
+}
+.bg-who{
+    background-image: url('../img/bg-who-we.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-mundo{
+    background-image: url('../img/bg-mundo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-contracts{
+    background-image: url('../img/bg-contracts.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-world{
+    position: relative;
+}
+.bg-form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    font-family: 'Montserrat Medium';
+}
+/* TERMINA BACKGROUNDS */
+.menu-web{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.a_none_style{
+    text-decoration: none;
+}
+/* ICONOS */
+.logo-menu-web{
+    width: 120px;
+}
+.icono-payroll{
+    width: 90px;
+    float: left;
+}
+.icono-redes-foot{
+    width: 30px;
+}
+.bb-logo{
+    width: 200px;
+}
+.fa-bars{
+    color: #fff;
+}
+.icono-logo{
+    width: 20px;
+}
+#Grupo_4961{
+    stroke: #fff;
+    fill: none;
+    stroke-width: 2;
+}
+.logo-footer{
+    width: 50px;
+}
+.logo-footer-bco{
+    width: 200px;
+}
+/* TERMINA ICONOS*/
+/* BOTONES */
+.btn-contact-menu{  
+    background-color: #0F9CEA;
+    border-color: #0F9CEA;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+}
+.btn-send{
+    background-color: #0F9CEA;
+    border-color: #0F9CEA;
+    border-radius: 10px;
+    width: 130px;
+}
+.btn-contact{
+    background-color: #0F9CEA;
+    border-color: #0F9CEA;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+}
+/* TERMIAN BOTONES */
+/* TEXTOS */
+.text-index{
+    color: #fff;
+}
+.tit-global{
+    letter-spacing: 1rem;
+}
+.tit-dreams{
+    color: #37AAEA;
+}
+.txt-separacion{
+    letter-spacing: 0.5rem;
+}
+/* TERMMIAN TEXTOS */
+/* COLOR TEXTOS */
+.txt-azul{
+    color: #0F9CEA;
+}
+.txt-gris{
+    color: #6C6C6C;
+}
+.txt-azul-marino{
+    color: #352B66;
+}
+.txt-negro{
+    color: #434343;
+}
+/* TERMINA COLOR TEXTOS */
+/* IMÁGENES */
+.img-who{
+    width: 60%;
+}
+.img-what{
+    width: 200px;
+}
+.img-what-2{
+    width: 180px;
+}
+.img-what-3{
+    width: 200px;
+}
+.compl-form{
+    width: 20px;
+}
+/* TERMINA IMÁGENES */
+.plus-readmore{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.read-more{
+    margin-right: 1rem;
+}
+.more-plus{
+    background-color: #fff;
+    color: #0F9CEA;
+    padding: 0.7px -0.78px;
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    line-height: 0.9px;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 4s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0.4s;
+}
+.more-plus:hover{
+    background-color: #0F9CEA;
+    color: #fff;
+    transform-origin: center 50% 0px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+}
+.header-line{
+    width: 1px;
+    height: 87.5px;
+    position: absolute;
+    background-color: #0F9CEA;
+    top: 18px;
+    z-index: 200;
+    opacity: 0;
+}
+.card{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    border-color: #fff;
+}
+.num-how{
+    float: left;
+    margin-right: 10px;
+}
+.tit-world{
+    position: absolute;
+    top: 10%;
+    left: 26.5%;
+}
+.cards-world{
+   margin-top: -300px;
+}
+.bg-form input{
+    border-radius: 8px;
+    height: 50px;
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+}
+.bg-form textarea{
+    border-radius: 8px;
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+}
+.bg-form label{
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+}
+.bg-menu{
+    background-color: #352B66;
+}
+/* CARD FLIP OUR BENEFITS */
+.cardBox {
+    float: left;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+}
+.cardBox:hover .card2 {
+    transform: rotateY( 180deg);
+}
+.card2 {
+    background: rgb(15,156,234);
+    background: linear-gradient(0deg, rgba(15,156,234,0.9) 0%, rgba(16,153,231,0.9) 0%, rgba(53,43,102,0.9) 55%);
+    cursor: default;
+    height: 450px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 90%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+    border-radius: 15px;
+}
+.card2 p {
+    margin-bottom: 1.8em;
+}
+.card2 .front,
+.card2 .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    width: 100%;
+    border-radius: 15px;
+}
+.card2 .front strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #222;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+}
+.card2 .back {
+    transform: rotateY( 180deg);
+}
+.cardBox:nth-child(1) .card2 .back {
+    background: rgb(53,43,102);
+    background: linear-gradient(0deg, rgba(53,43,102,0.8) 42%, rgba(16,153,231,0.8) 95%, rgba(15,156,234,0.8) 100%);
+}
+.cardBox:nth-child(2) .card2 .front {
+    background: rgb(53,43,102);
+    background: linear-gradient(0deg, rgba(53,43,102,0.8) 42%, rgba(16,153,231,0.7) 99%, rgba(15,156,234,0.7) 100%);
+}
+.cardBox:nth-child(2) .card2 .back {
+    background: rgb(15,156,234);
+    background: linear-gradient(0deg, rgba(15,156,234,0.8) 0%, rgba(16,153,231,0.8) 0%, rgba(53,43,102,0.8) 55%);
+}
+.cardBox:nth-child(3) .card2 .back {
+    background: rgb(53,43,102);
+    background: linear-gradient(0deg, rgba(53,43,102,0.8) 42%, rgba(16,153,231,0.8) 95%, rgba(15,156,234,0.8) 100%);
+}
+.cardBox:nth-child(4) .card2 .back {
+    background: rgb(15,156,234);
+    background: linear-gradient(0deg, rgba(15,156,234,0.8) 0%, rgba(16,153,231,0.8) 0%, rgba(53,43,102,0.8) 55%);
+}
+.cardBox:nth-child(4) .card2 .front {
+    background: rgb(53,43,102);
+    background: linear-gradient(0deg, rgba(53,43,102,0.8) 42%, rgba(16,153,231,0.7) 99%, rgba(15,156,234,0.7) 100%);
+}
+.cardBox:nth-child(2) .card2 {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+}
+.cardBox:nth-child(3) .card2 {
+    -webkit-animation: giro 2s 1;
+    animation: giro 2s 1;
+}
+.cardBox:nth-child(4) .card2 {
+    -webkit-animation: giro 2.5s 1;
+    animation: giro 2.5s 1;
+}
+.front img{
+    width: 80px;
+    margin-top: 5rem;
+}
+.back img{
+    width: 60px;
+}
+.back p{
+    line-height: 30%;
+    font-size: 12px;
+}
+@-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  @keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+}
+@media screen and (max-width: 767px) {
+    .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+    .card {
+      height: 285px;
+    }
+    .cardBox:last-child {
+      margin-bottom: 3%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .cardBox {
+      width: 94.5%;
+    }
+    .card {
+      height: 260px;
+    }
+}
+/* TERMINA CARD FLIP OUR BENEFITS */
+.vid-monitoreo{
+    position: relative;
+}
+.video_index{
+    position: absolute;
+}
+.video_index-cel{
+    position: absolute;
+}
+.vid-monitoreo-cel{
+    margin-top: 120px;
+    position: relative;
+    margin-bottom: 150px;
+}
+.vid-hire{
+    position: relative;
+    margin-bottom: 100px;
+}
+.txt-footer{
+    position: relative;
+    color: #fff;   
+    margin-top: 100px;
+}
+.txt-hire{
+    position: relative;
+    color: #fff;   
+}
+.txt-footer-cel{
+    position: relative;
+    color: #fff;
+    line-height: 75%;
+    top: 0;
+}
+.txt-footer p{
+    font-size: 18px;
+}
+/* TERMINA FOOTER */
+/* CARROUSEL DE EMPRESAS */
+.container-carrousel {
+    position: relative;
+    display: block;
+    height: 500px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .nav__prev, .nav__next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #749393;
+  }
+  .nav__prev:hover, .nav__next:hover {
+    color: #9AB6B6;
+  }
+  .nav__prev {
+    left: 10px;
+  }
+  .nav__next {
+    right: 10px;
+  }
+  .carousel {
+    margin: auto;
+    padding: 50px;
+  }
+  .carousel .slick-current .carousel__slide {
+    transform: scale(1);
+    box-shadow: 0 0 30px 5px #E8E8E8;
+  }
+  .carousel .slick-current .carousel__content {
+    display: block;
+  }
+  .carousel__slide {
+    width: 250px;
+    padding: 10px;
+    margin: 0 30px;
+    border-radius: 20px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px 5px #E8E8E8;
+    transform: scale(0.8);
+    transition: all 400ms linear;
+  }
+  .carousel__visual {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .carousel__visual img {
+    width: 100%;
+  }
+  .carousel__content {
+    position: relative;
+  }
+  .carousel__content h1 {
+    margin-bottom: 10px;
+    font-family: 'Graphik Regular';
+    font-size: 14px;
+  }
+/* TERMINA CARROUSEL DE EMPRESAS */
