@@ -1,0 +1,266 @@
+                <div class="boxesContainer">
+                    <div class="cardBox">
+                      <div class="card2">
+                        <div class="front">
+                            <div class="text-center mb-4">
+                                <img loading="lazy" src="{{ asset('front/img/workforce.webp') }}" alt="WORK FORCE" class="img-fluid"/>
+                            </div>
+                            <div class="mx-4">
+                                <h3 class="mBold h3 mb-0">Workforce </h3>
+                                <h3 class="mBold h3 my-0">management</h3>
+                                <h3 class="mBold h3 my-0">with less </h3>
+                                <h3 class="mBold h3 mt-0">work.</h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="text-center mb-4">
+                                <img loading="lazy" src="{{ asset('front/img/workforce.webp') }}" alt="WORK FORCE" class="img-fluid"/>
+                            </div>
+                            <div class="mx-4">
+                                <h3 class="mBold mb-0 h4">Workforce </h3>
+                                <h3 class="mBold my-0 h4">management</h3>
+                                <h3 class="mBold my-0 h4">with less </h3>
+                                <h3 class="mBold mt-0 h4 mb-4">work.</h3>
+                                <p>Our platform serves as your </p>
+                                <p>employee management system. It’s</p>
+                                <p>where you’ll find personnel </p>
+                                <p>information including things like </p>
+                                <p>salary, benefits, paid-time off, and </p>
+                                <p>more. It’s also what you’ll use to </p>
+                                <p>supervise payroll. All payments are</p>
+                                <p>automated for you so that they’re</p>
+                                <p>delivered correctly and efficiently. </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cardBox">
+                      <div class="card2">
+                        <div class="front">
+                            <div class="text-center mb-4">
+                                <img loading="lazy" src="{{ asset('front/img/offers-in-line.webp') }}" alt="OFFERS IN LINE" class="img-fluid"/>
+                            </div>
+                            <div class="mx-4">
+                                <h3 class="mBold h3 mb-0">Offers in line</h3>
+                                <h3 class="mBold h3 my-0">with local </h3>
+                                <h3 class="mBold h3 my-0">norms and </h3>
+                                <h3 class="mBold h3 mt-0">laws.</h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="text-center mb-4">
+                                <img loading="lazy" src="{{ asset('front/img/offers-in-line.webp') }}" alt="OFFERS IN LINE" class="img-fluid"/>
+                            </div>
+                            <div class="mx-4">
+                                <h3 class="mBold h4 mb-0">Offers in line</h3>
+                                <h3 class="mBold h4 my-0">with local </h3>
+                                <h3 class="mBold h4 my-0">norms and </h3>
+                                <h3 class="mBold h4 mt-0 mb-4">laws.</h3>
+                                <p>We handle the many complexities</p>
+                                <p>of country-specific benefits</p>
+                                <p>packages. There isn’t a one-size-</p>
+                                <p>fits-all strategy or offering </p>
+                                <p>because every country has its </p>
+                                <p>own requirements.</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cardBox">
+                      <div class="card2">
+                        <div class="front">
+                            <div class="text-center mb-4">
+                                <img loading="lazy" src="{{ asset('front/img/customized.webp') }}" alt="CUSTOMIZED EMPLOYMENT" class="img-fluid"/>
+                            </div>
+                            <div class="mx-4">
+                                <h3 class="mBold h3 mb-0">Customized </h3>
+                                <h3 class="mBold h3 my-0">employment</h3>
+                                <h3 class="mBold h3 mt-0">contracts. </h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="text-center mb-4">
+                                <img loading="lazy" src="{{ asset('front/img/customized.webp') }}" alt="CUSTOMIZED EMPLOYMENT" class="img-fluid"/>
+                            </div>
+                            <div class="mx-4">
+                                <h3 class="mBold h4 mb-0">Customized </h3>
+                                <h3 class="mBold h4 my-0">employment</h3>
+                                <h3 class="mBold h4 mt-0 mb-4">contracts. </h3>
+                                <p>Because labor laws are so </p>
+                                <p>strictly enforced across the </p>
+                                <p>globe, going it alone or doing </p>
+                                <p>it incorrectly could expose you</p>
+                                <p>to fines, penalties, and </p>
+                                <p>litigation.</p>
+                            </div> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cardBox">
+                      <div class="card2">
+                        <div class="front">
+                            <div class="text-center mb-4">
+                                <img loading="lazy" src="{{ asset('front/img/payroll-goes.webp') }}" alt="PAYROLL GOES" class="img-fluid"/>
+                            </div>
+                            <div class="mx-4">
+                                <h3 class="mBold h3 mb-0">Payroll </h3>
+                                <h3 class="mBold h3 my-0">goes </h3>
+                                <h3 class="mBold h3 mt-0">through us.</h3>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="text-center mb-4">
+                                <img loading="lazy" src="{{ asset('front/img/payroll-goes.webp') }}" alt="PAYROLL GOES" class="img-fluid"/>
+                            </div>
+                            <div class="mx-4">
+                                <h3 class="mBold h4 mb-0">Payroll </h3>
+                                <h3 class="mBold h4 my-0">goes </h3>
+                                <h3 class="mBold h4 mt-0 mb-4">through us.</h3>
+                                <p>With Core Resources, your </p>
+                                <p>employees are put on our </p>
+                                <p>local payroll. You assign their</p>
+                                <p>work and dictate their pay, </p>
+                                <p>but we take care of logistics</p>
+                                <p>and compliance. </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+
+<style>
+.cardBox {
+    float: left;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    width: 23.7%;
+}
+.cardBox:hover .card2 {
+    transform: rotateY( 180deg);
+}
+.card2 {
+    background: rgb(15,156,234);
+    background: linear-gradient(0deg, rgba(15,156,234,0.9) 0%, rgba(16,153,231,0.9) 0%, rgba(53,43,102,0.9) 55%);
+    cursor: default;
+    height: 500px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: transform 0.3s ease 0s;
+    width: 90%;
+    -webkit-animation: giro 0.5s 1;
+    animation: giro 0.5s 1;
+    -moz-animation: giro 0.5s 1;
+    -o-animation: giro 0.5s 1;
+    -ms-animation: giro 0.5s 1;
+    border-radius: 15px;
+}
+.card2 p {
+    margin-bottom: 1.8em;
+}
+.card2 .front,
+.card2 .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    width: 100%;
+    border-radius: 15px;
+    font-family: 'Graphik Regular';
+}
+.card2 .front strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #fff;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+}
+.card2 .back {
+    transform: rotateY( 180deg);
+    -webkit-transform: rotateY( 180deg);
+    -moz-transform: rotateY( 180deg);
+    -o-transform: rotateY( 180deg);
+    -ms-transform: rotateY( 180deg);
+    font-family: 'Graphik Regular';
+}
+.cardBox:nth-child(1) .card2 .back {
+    background: rgb(53,43,102);
+    background: linear-gradient(0deg, rgba(53,43,102,0.8) 42%, rgba(16,153,231,0.8) 95%, rgba(15,156,234,0.8) 100%);
+    color: #fff;
+}
+.cardBox:nth-child(2) .card2 .front {
+    background: rgb(53,43,102);
+    background: linear-gradient(0deg, rgba(53,43,102,0.8) 42%, rgba(16,153,231,0.7) 99%, rgba(15,156,234,0.7) 100%);
+    color: #fff;
+}
+.cardBox:nth-child(2) .card2 .back {
+    background: rgb(15,156,234);
+    background: linear-gradient(0deg, rgba(15,156,234,0.8) 0%, rgba(16,153,231,0.8) 0%, rgba(53,43,102,0.8) 55%);
+    color: #fff;
+}
+.cardBox:nth-child(3) .card2 .back {
+    background: rgb(53,43,102);
+    background: linear-gradient(0deg, rgba(53,43,102,0.8) 42%, rgba(16,153,231,0.8) 95%, rgba(15,156,234,0.8) 100%);
+    color: #fff;
+}
+.cardBox:nth-child(4) .card2 .back {
+    background: rgb(15,156,234);
+    background: linear-gradient(0deg, rgba(15,156,234,0.8) 0%, rgba(16,153,231,0.8) 0%, rgba(53,43,102,0.8) 55%);
+    color: #fff;
+}
+.cardBox:nth-child(4) .card2 .front {
+    background: rgb(53,43,102);
+    background: linear-gradient(0deg, rgba(53,43,102,0.8) 42%, rgba(16,153,231,0.7) 99%, rgba(15,156,234,0.7) 100%);
+    color: #fff;
+}
+.cardBox:nth-child(2) .card2 {
+    -webkit-animation: giro 0.5s 1;
+    animation: giro 0.5s 1;
+}
+.cardBox:nth-child(3) .card2 {
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+}
+.cardBox:nth-child(4) .card2 {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+}
+.front img{
+    width: 60px;
+}
+.back img{
+    width: 60px;
+}
+.back p{
+    line-height: 30%;
+    font-size: 12.3px;
+    font-family: 'Graphik Regular';
+}
+@-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  @keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+}
+</style>
