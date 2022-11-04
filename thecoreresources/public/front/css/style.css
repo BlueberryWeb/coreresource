@@ -1,0 +1,1465 @@
+html, body {
+    width: 100% !important;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'Graphik Regular';
+    src: url("fonts/GraphikRegular.otf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Graphik Regular Italic';
+    src: url("fonts/GraphikRegularItalic.otf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("fonts/Montserrat-Bold.ttf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat Extra Bold';
+    src: url("fonts/Montserrat-ExtraBold.ttf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url("fonts/Montserrat-Light.ttf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url("fonts/Montserrat-Medium.ttf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat Semi Bold';
+    src: url("fonts/Montserrat-SemiBold.ttf"); 
+    font-display: swap;
+}
+.gRegular{
+    font-family: 'Graphik Regular'; 
+}
+.gRegularItalic{
+    font-family: 'Graphik Regular Italic';
+}
+.mBold{
+    font-family: 'Montserrat Bold';
+}
+.mExtraBold{
+    font-family: 'Montserrat Extra Bold';
+}
+.mLight{
+    font-family: 'Montserrat Light';
+}
+.mMedium{
+    font-family: 'Montserrat Medium';
+}
+.mSemiBold{
+    font-family: 'Montserrat Semi Bold';
+}
+.form-select {
+    color: #6C6C6C;
+    font-family: 'Montserrat Medium';
+}
+input{
+    font-family: 'Montserrat Medium';
+}
+textarea{
+    font-family: 'Montserrat Medium';
+}
+/* BACKGROUNDS */
+.bg-index{
+    background-image: url('../img/bg-index.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.bg-gris{
+    background-color: #EAEAEA;
+}
+.bg-who{
+    background-image: url('../img/bg-who-we.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-mundo{
+    background-image: url('../img/bg-mundo.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-contracts{
+    background-image: url('../img/bg-contracts.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-world{
+    position: relative;
+}
+.bg-form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    font-family: 'Montserrat Medium';
+}
+.bg-form input{
+    border-radius: 8px;
+    height: 50px;
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+}
+.bg-form textarea{
+    border-radius: 8px;
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+}
+.bg-form label{
+    font-family: 'Montserrat Medium';
+    font-size: 14px;
+}
+.bg-menu{
+    background-color: #6921B9;
+}
+.bg-footer{
+    background-image: url('../img/bg-footer.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+}
+/* TERMINA BACKGROUNDS */
+.menu-web{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    visibility: visible;
+    position: relative;
+    z-index: 1000;
+}
+.menu-tablet{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    visibility: hidden;
+}
+.margen-left{
+    margin-left: 10rem;
+}
+.a_none_style{
+    text-decoration: none;
+}
+/* ICONOS */
+.logo-menu-web{
+    width: 120px;
+}
+.icono-payroll{
+    width: 90px;
+    float: left;
+}
+.icono-redes-foot{
+    width: 30px;
+}
+.bb-logo{
+    width: 200px;
+}
+.fa-bars{
+    color: #fff;
+}
+.icono-logo{
+    width: 20px;
+}
+#Grupo_4961{
+    stroke: #fff;
+    fill: none;
+    stroke-width: 2;
+}
+.logo-footer{
+    width: 50px;
+}
+.logo-footer-bco{
+    width: 200px;
+}
+
+/* TERMINA ICONOS*/
+/* BOTONES */
+.btn-contact-menu{  
+    background-color: #6921B9;
+    border-color: #6921B9;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+}
+.btn-contact-menu:hover{  
+    background-color: #6921B9;
+    border-color: #6921B9;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+}
+.btn-contact-menu:focus{  
+    background-color: #6921B9;
+    border-color: #6921B9;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+}
+.btn-send{
+    background-color: #6921B9;
+    border-color: #6921B9;
+    border-radius: 10px;
+    width: 130px;
+}
+.btn-send:hover{
+    background-color: #6921B9;
+    border-color: #6921B9;
+    border-radius: 10px;
+    width: 130px;
+}
+.btn-send:focus{
+    background-color: #6921B9;
+    border-color: #6921B9;
+    border-radius: 10px;
+    width: 130px;
+}
+.btn-contact{
+    background-color: #6921B9;
+    border-color: #6921B9;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+}
+.btn-contact:hover{
+    background-color: #6921B9;
+    border-color: #6921B9;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+}
+.btn-contact:focus{
+    background-color: #6921B9;
+    border-color: #6921B9;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+}
+/* TERMIAN BOTONES */
+/* TEXTOS */
+.text-index{
+    color: #fff;
+    margin-top: 150px;
+    z-index: 2;
+}
+.tit-global{
+    letter-spacing: 0.5rem;
+}
+.tit-dreams{
+    color: #fff;
+}
+.txt-separacion{
+    letter-spacing: 0.5rem;
+}
+.txt-payroll{
+    margin-top: 5rem;
+}
+.txt-contracts{
+    margin-top: 5rem;
+}
+.txt-contact{
+    margin-top: 9rem;
+}
+/* TERMMIAN TEXTOS */
+/* COLOR TEXTOS */
+.txt-azul{
+    color: #6921B9;
+}
+.txt-gris{
+    color: #6C6C6C;
+}
+.txt-azul-marino{
+    color: #352B66;
+}
+.txt-negro{
+    color: #434343;
+}
+/* TERMINA COLOR TEXTOS */
+/* IMÁGENES */
+.img-who{
+    width: 60%;
+}
+.img-what{
+    width: 200px;
+}
+.img-what-2{
+    width: 150px;
+}
+.img-what-3{
+    width: 200px;
+}
+.compl-form{
+    width: 20px;
+    float: right;
+    margin-top: -33px;
+}
+.compl-tit{
+    width: 20px;
+}
+.svg-animado{
+    width: 200px;
+}
+.vid-payroll{
+    width: 60%;
+}
+.vid-taxes{
+    width: 50%;
+}
+.vid-business{
+    width: 60%;
+}
+/* TERMINA IMÁGENES */
+.plus-readmore{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+.read-more{
+    margin-right: 1rem;
+}
+.more-plus{
+    background-color: #fff;
+    color: #6921B9;
+    padding: 0.7px -0.78px;
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    line-height: 0.9px;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 4s, transform 1.5s cubic-bezier(0.5, 0, 0, 1) 0.4s;
+    cursor: pointer;
+}
+.more-plus:hover{
+    background-color: #6921B9;
+    color: #fff;
+    transform-origin: center 50% 0px;
+}
+.more-plus:hover i{
+    animation: rotation 2s forwards linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+.header-line{
+    width: 1px;
+    height: 87.5px;
+    position: absolute;
+    background-color: #6921B9;
+    top: 18px;
+    z-index: 200;
+    opacity: 0;
+}
+.card{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    border-color: #fff;
+}
+.num-how{
+    float: left;
+    margin-right: 10px;
+}
+.tit-world{
+    position: absolute;
+    top: 15%;
+    left: 26.5%;
+}
+.cards-world{
+   margin-top: -400px;
+}
+.cards-world h5{
+    padding-top: 2rem;
+}
+/* CARD FLIP OUR BENEFITS */
+.cardBox {
+    float: left;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    width: 23.7%;
+}
+.card2 {
+    background: rgb(105,33,185);
+    background: linear-gradient(180deg, rgba(105,33,185,1) 2%, rgba(105,33,185,1) 16%, rgba(32,67,123,1) 82%);
+    cursor: default;
+    height: 500px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: transform 0.3s ease 0s;
+    width: 90%;
+    -webkit-animation: giro 0.5s 1;
+    animation: giro 0.5s 1;
+    -moz-animation: giro 0.5s 1;
+    -o-animation: giro 0.5s 1;
+    -ms-animation: giro 0.5s 1;
+    border-radius: 15px;
+}
+.card2 p {
+    margin-bottom: 1.8em;
+}
+.card2 .front,
+.card2 .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    width: 100%;
+    border-radius: 15px;
+    font-family: 'Graphik Regular';
+}
+.card2 .front strong {
+    background: #fff;
+    border-radius: 100%;
+    color: #fff;
+    line-height: 30px;
+    padding: 0 7px 4px 6px;
+}
+.card2 .back {
+    transform: rotateY( 180deg);
+    -webkit-transform: rotateY( 180deg);
+    -moz-transform: rotateY( 180deg);
+    -o-transform: rotateY( 180deg);
+    -ms-transform: rotateY( 180deg);
+    font-family: 'Graphik Regular';
+}
+.cardBox:nth-child(1) .card2 .back {
+    background: rgb(105, 33, 285);
+    background: linear-gradient(0deg, rgba(105, 33, 285,0.9) 42%, rgba(32, 67, 123,0.9) 95%, rgba(32, 67, 123,0.9) 100%);
+    color: #fff;
+}
+.cardBox:nth-child(2) .card2 .front {
+    background: rgb(32,67,123);
+    background: linear-gradient(180deg, rgba(32,67,123,1) 2%, rgba(32,67,123,1) 16%, rgba(105,33,185,1) 82%);
+    color: #fff;
+}
+.cardBox:nth-child(2) .card2 .back {
+    background: rgb(32, 67, 123);
+    background: linear-gradient(0deg, rgba(32, 67, 123,0.9) 0%, rgba(32, 67, 123,0.9) 0%, rgba(105, 33, 285,0.9) 55%);
+    color: #fff;
+}
+.cardBox:nth-child(3) .card2 .back {
+    background: rgb(105, 33, 285);
+    background: linear-gradient(0deg, rgba(105, 33, 285,0.9) 42%, rgba(32, 67, 123,0.9) 95%, rgba(32, 67, 123,0.9) 100%);
+    color: #fff;
+}
+.cardBox:nth-child(4) .card2 .back {
+    background: rgb(32, 67, 123);
+    background: linear-gradient(0deg, rgba(32, 67, 123,0.9) 0%, rgba(32, 67, 123,0.9) 0%, rgba(105, 33, 285,0.9) 55%);
+    color: #fff;
+}
+.cardBox:nth-child(4) .card2 .front {
+    background: rgb(32,67,123);
+background: linear-gradient(180deg, rgba(32,67,123,1) 2%, rgba(32,67,123,1) 16%, rgba(105,33,185,1) 82%);
+    color: #fff;
+}
+.cardBox:nth-child(2) .card2 {
+    -webkit-animation: giro 0.5s 1;
+    animation: giro 0.5s 1;
+}
+.cardBox:nth-child(3) .card2 {
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+}
+.cardBox:nth-child(4) .card2 {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+}
+.front img{
+    width: 60px;
+}
+.front p{
+    line-height: 30%;
+    font-size: 12.3px;
+    font-family: 'Graphik Regular';
+}
+@-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  @keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+}
+/* TERMINA CARD FLIP OUR BENEFITS */
+.vid-monitoreo{
+    position: relative;
+}
+.video_index{
+    position: absolute;
+}
+.video_index-cel{
+    position: absolute;
+}
+.vid-monitoreo-cel{
+    margin-top: 120px;
+    position: relative;
+    margin-bottom: 150px;
+}
+.vid-hire{
+    position: relative;
+    margin-bottom: 100px;
+}
+.showcase{
+    position: relative;
+    margin-top: 100px;
+    right: 0;
+    width: 100%;
+    min-height: 90vh;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+    
+}
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.showcase-footer{
+    position: relative;
+    margin-top: 100px;
+    right: 0;
+    width: 100%;
+    min-height: 70vh;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+    
+}
+.showcase-footer video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.showcase2{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 70vh;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.showcase2 video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.showcase2 .txt-footer{
+    background-color: linear-gradient( top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.showcase-footer .txt-footer{
+    background-color: linear-gradient( top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.showcase .txt-footer-cel{
+    background-color: linear-gradient( top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.showcase .txt-hire{
+    background-color: linear-gradient( top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4));
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.txt-footer{
+    position: relative;
+    color: #fff;   
+    margin-top: 100px;
+}
+.txt-hire{
+    position: relative;
+    color: #fff;   
+}
+.txt-hire-2{
+    margin-top: 100px;
+}
+.txt-footer-cel{
+    position: relative;
+    color: #fff;
+    line-height: 105%;
+    top: 0;
+}
+.txt-footer p{
+    font-size: 18px;
+}
+/* TERMINA FOOTER */
+/* CARROUSEL DE EMPRESAS */
+.mycard {
+    height: 100%;
+    width: 100%;
+    max-width: 24rem;
+  }
+  .cardtitle {
+    font-weight: bold;
+    --tw-text-opacity: 1;
+    color: rgba(31, 41, 55, var(--tw-text-opacity));
+    text-align: center;
+  }
+  .cardimg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
+    max-height: 6rem;
+  }
+  .carddescription {
+    --tw-text-opacity: 1;
+    color: rgba(107, 114, 128, var(--tw-text-opacity));
+    text-align: center;
+  }
+  
+  .content-slider {
+    margin: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+    font-family: 'Graphik Regular';
+  }
+  .slider {
+    width: 100%;
+    min-height: 385px;
+  }
+  .slider input {
+    display: none;
+  }
+  .testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 375px;
+    perspective: 500px;
+    overflow: hidden;
+  }
+  .testimonials .item {
+    max-width: 20rem;
+    border-radius: 1.5rem;
+    border-width: 2px;
+    --tw-border-opacity: 1;
+    border-color: rgba(30, 58, 138, var(--tw-border-opacity));
+    top: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 10px;
+    width: 450px;
+    text-align: center;
+    transition: transform 0.4s;
+    -webkit-transform-style: preserve-3d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    user-select: none;
+    cursor: pointer;
+  }
+  .testimonials .item img {
+    width: 100px;
+  }
+  .testimonials .item p {
+    color: black;
+  }
+  .testimonials .item h2 {
+    font-size: 14px;
+  }
+  .dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dots label {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #413b52;
+    margin: 7px;
+    transition: transform 0.2s, color 0.2s;
+  }
+  /* First */
+  #t-1:checked ~ .dots label[for="t-1"] {
+    transform: scale(2);
+    background-color: #6921B9;
+  }
+  #t-1:checked ~ .dots label[for="t-2"] {
+    transform: scale(1.5);
+  }
+  #t-1:checked ~ .testimonials label[for="t-1"] {
+    z-index: 4;
+  }
+  #t-1:checked ~ .testimonials label[for="t-2"] {
+    transform: translateX(300px) translateZ(-90px) translateY(-15px);
+    z-index: 3;
+  }
+  #t-1:checked ~ .testimonials label[for="t-3"] {
+    transform: translateX(600px) translateZ(-180px) translateY(-30px);
+    z-index: 2;
+  }
+  #t-1:checked ~ .testimonials label[for="t-4"] {
+    transform: translateX(900px) translateZ(-270px) translateY(-45px);
+    z-index: 1;
+  }
+  #t-1:checked ~ .testimonials label[for="t-5"] {
+    transform: translateX(1200px) translateZ(-360px) translateY(-60px);
+  }
+  
+  /* Second */
+  #t-2:checked ~ .dots label[for="t-1"] {
+    transform: scale(1.5);
+  }
+  #t-2:checked ~ .dots label[for="t-2"] {
+    transform: scale(2);
+    background-color: #6921B9;
+  }
+  #t-2:checked ~ .dots label[for="t-3"] {
+    transform: scale(1.5);
+  }
+  #t-2:checked ~ .testimonials label[for="t-1"] {
+    transform: translateX(-300px) translateZ(-90px) translateY(-15px);
+  }
+  #t-2:checked ~ .testimonials label[for="t-2"] {
+    z-index: 3;
+  }
+  #t-2:checked ~ .testimonials label[for="t-3"] {
+    transform: translateX(300px) translateZ(-90px) translateY(-15px);
+    z-index: 2;
+  }
+  #t-2:checked ~ .testimonials label[for="t-4"] {
+    transform: translateX(600px) translateZ(-180px) translateY(-30px);
+    z-index: 1;
+  }
+  #t-2:checked ~ .testimonials label[for="t-5"] {
+    transform: translateX(900px) translateZ(-270px) translateY(-45px);
+  }
+  
+  /* Third */
+  #t-3:checked ~ .dots label[for="t-2"] {
+    transform: scale(1.5);
+  }
+  #t-3:checked ~ .dots label[for="t-3"] {
+    transform: scale(2);
+    background-color: #6921B9;
+  }
+  #t-3:checked ~ .dots label[for="t-4"] {
+    transform: scale(1.5);
+  }
+  #t-3:checked ~ .testimonials label[for="t-1"] {
+    transform: translateX(-600px) translateZ(-180px) translateY(-30px);
+  }
+  #t-3:checked ~ .testimonials label[for="t-2"] {
+    transform: translateX(-300px) translateZ(-90px) translateY(-15px);
+  }
+  #t-3:checked ~ .testimonials label[for="t-3"] {
+    z-index: 3;
+  }
+  #t-3:checked ~ .testimonials label[for="t-4"] {
+    transform: translateX(300px) translateZ(-90px) translateY(-15px);
+    z-index: 2;
+  }
+  #t-3:checked ~ .testimonials label[for="t-5"] {
+    transform: translateX(600px) translateZ(-180px) translateY(-30px);
+  }
+  
+  /* Fourth */
+  #t-4:checked ~ .dots label[for="t-3"] {
+    transform: scale(1.5);
+  }
+  #t-4:checked ~ .dots label[for="t-4"] {
+    transform: scale(2);
+    background-color: #6921B9;
+  }
+  #t-4:checked ~ .dots label[for="t-5"] {
+    transform: scale(1.5);
+  }
+  #t-4:checked ~ .testimonials label[for="t-1"] {
+    transform: translateX(-900px) translateZ(-270px) translateY(-45px);
+  }
+  #t-4:checked ~ .testimonials label[for="t-2"] {
+    transform: translateX(-600px) translateZ(-180px) translateY(-30px);
+  }
+  #t-4:checked ~ .testimonials label[for="t-3"] {
+    transform: translateX(-300px) translateZ(-90px) translateY(-15px);
+    z-index: 2;
+  }
+  #t-4:checked ~ .testimonials label[for="t-4"] {
+    z-index: 3;
+  }
+  #t-4:checked ~ .testimonials label[for="t-5"] {
+    transform: translateX(300px) translateZ(-90px) translateY(-15px);
+  }
+  
+  /* Fifth */
+  #t-5:checked ~ .dots label[for="t-3"] {
+    transform: scale(1.5);
+  }
+  #t-5:checked ~ .dots label[for="t-4"] {
+    transform: scale(2);
+  }
+  #t-5:checked ~ .dots label[for="t-5"] {
+    transform: scale(1.5);
+    background-color: #6921B9;
+  }
+  #t-5:checked ~ .testimonials label[for="t-1"] {
+    transform: translateX(-1200px) translateZ(-360px) translateY(-60px);
+  }
+  #t-5:checked ~ .testimonials label[for="t-2"] {
+    transform: translateX(-900px) translateZ(-270px) translateY(-45px);
+    z-index: 1;
+  }
+  #t-5:checked ~ .testimonials label[for="t-3"] {
+    transform: translateX(-600px) translateZ(-180px) translateY(-30px);
+    z-index: 2;
+  }
+  #t-5:checked ~ .testimonials label[for="t-4"] {
+    transform: translateX(-300px) translateZ(-90px) translateY(-15px);
+    z-index: 3;
+  }
+  #t-5:checked ~ .testimonials label[for="t-5"] {
+    z-index: 4;
+  }
+/* six 
+#t-6:checked ~ .dots label[for="t-4"] {
+    transform: scale(1.5);
+}
+#t-6:checked ~ .dots label[for="t-5"] {
+    transform: scale(2);
+    background-color: #6921B9;
+}
+#t-6:checked ~ .testimonials label[for="t-1"] {
+    transform: translateX(-1200px) translateZ(-360px) translateY(-60px);
+}
+#t-6:checked ~ .testimonials label[for="t-2"] {
+     transform: translateX(-900px) translateZ(-270px) translateY(-45px);
+    z-index: 1;
+}
+#t-6:checked ~ .testimonials label[for="t-3"] {
+    transform: translateX(-600px) translateZ(-180px) translateY(-30px);
+    z-index: 2;
+}
+#t-6:checked ~ .testimonials label[for="t-4"] {
+    transform: translateX(-300px) translateZ(-90px) translateY(-15px);
+    z-index: 3;
+}
+#t-6:checked ~ .testimonials label[for="t-5"] {
+    z-index: 4;
+    transform: translateX(0px) translateZ(0px) translateY(0px);
+}
+#t-6:checked ~ .testimonials label[for="t-6"] {
+    z-index: 5;
+}*/
+/* TERMINA CARROUSEL DE EMPRESAS */
+/* LINEAS DEL INDEX */
+.header-lines{
+    position: absolute;
+    bottom: 0;
+    left: 52%;
+    display: flex;
+    z-index: 1;
+}
+.header-line_1{
+    border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+    margin-top: 200px;
+    height: 500px;
+}
+.header-line_2{
+    border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+    margin-top: 200px;
+    height: 500px;
+    margin-left: 90px;
+}
+.header-line_3{
+    border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+    margin-top: 200px;
+    height: 500px;
+    margin-left: 90px;
+}
+.header-line_4{
+    border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+    margin-top: 200px;
+    height: 500px;
+    margin-left: 90px;
+}
+.header-line_5{
+    border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+    margin-top: 100px;
+    height: 600px;
+    margin-left: 90px;
+}
+.header-line_6{
+    border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+    margin-top: 200px;
+    height: 500px;
+    margin-left: 90px;
+}
+.header-line_7{
+    border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+    margin-top: 200px;
+    height: 500px;
+    margin-left: 90px;
+}
+.div-loader.loader {
+    padding: 2px;
+    background-color:#fff;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 10px #000;
+    -webkit-animation: aaa 5s;
+}
+@-webkit-keyframes aaa {
+    0%, 5% { 
+        width: 0%;  
+    }
+    10%, 20% { 
+        width: 10%;  
+    }
+    30%, 50% { 
+        width: 30%;  
+    }
+    100% { 
+        width: 100%;  
+    }
+}
+.lin-loader{
+    margin-top: 2rem;
+}
+.svg_2{
+    position: absolute;
+    top: 27%;
+    right: 17%;
+}
+.svg_1{
+    position: absolute;
+    bottom: 5%;
+    left: 38%;
+}
+.anim-svg{
+    position: absolute;
+    z-index: 1;
+}
+/* TERMINA LINEAS DEL INDEX */
+/* RESPONSIVE */
+@media only screen and (min-width:320px) and (max-width: 479px){
+    .text-index{
+        margin-top: 0;
+    }
+    .tit-dreams{
+        margin-top: -30px;
+    }
+    .txt-who p{
+        font-size: 12px;
+    }
+    .who-comp{
+        width: 20px;
+    }
+    .txt-separacion{
+        letter-spacing: 0.2rem;
+    }
+    .txt-hire{
+        padding-top: 190px;
+    }
+    .txt-payroll{
+        margin-top: 0;
+    }
+    .txt-payroll p{
+        font-size: 10px;
+    }
+    .txt-contracts{
+        margin-top: 0;
+    }
+    .txt-contracts p{
+        font-size: 12px;
+    }
+    .tit-world{
+        top: 0;
+        left: 3%;
+    }
+    .complContra{
+        width: 20px;
+    }
+    .compl-what{
+        width: 20px;
+    }
+    .complForm{
+        width: 20px;
+    }
+    .compl-how{
+        width: 20px;
+    }
+    .payCompl{
+        width: 20px;
+    }
+    .cardBox {
+        width: 100%;
+    }
+    .cardBox:hover .card2 {
+        transform: scale(1);
+    }
+    .card2 {
+        background: rgb(32, 67, 123);
+        background: linear-gradient(0deg, rgba(32, 67, 123,0.9) 0%, rgba(32, 67, 123,0.9) 0%, rgba(105, 33, 285,0.9) 55%);
+        height: 550px;
+        width: 90%;
+        border-radius: 15px;
+        color: #fff;
+        font-family: 'Graphik Regular';
+    }
+    .card2 img{
+        width: 80px;
+        margin-top: 2rem;
+    }
+    .card2 p{
+        line-height: 0;
+        font-size: 13px;
+    }
+    .box-middle{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .cards-world{
+        margin-top: 0;
+        justify-content: center;
+        margin-left: -18px;
+    }
+    .cards-who{
+        margin-left: -0.8rem;
+    }
+    .cards-world{
+        margin-left: -1.5rem;
+    }
+    .logo-hire{
+        width: 200px;
+    }
+    #contact{
+        margin-top: -100px;
+    }
+    .bg-index{
+        background-image: url('../img/bg-index_movil.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+    .slider{
+        width: 100%;
+    }
+    .testimonials .item{
+        width: 15rem;
+    }
+    .cards-world h5{
+        padding-top: 1rem;
+    }
+}
+@media only screen and (min-width:480px) and (max-width: 767px){
+    .text-index{
+        margin-top: 0;
+    }
+    .tit-dreams{
+        margin-top: 0;
+    }
+    .card{
+        height: 480px;
+    }
+    .complContra{
+        width: 20px;
+    }
+    .compl-what{
+        width: 20px;
+    }
+    .complForm{
+        width: 20px;
+    }
+    .payCompl{
+        width: 20px;
+    }
+    .txt-payroll{
+        margin-top: 0;
+    }
+    .txt-contact{
+        margin-top: 0;
+    }
+    .tit-world{
+        left: 10%;
+    }
+    .cardBox {
+        margin-left: 2.8%;
+        margin-top: 3%;
+        width: 90%;
+    }
+    .cardBox:hover .card2 {
+        transform: scale(1);
+    }
+    .card2 {
+        background: rgb(32, 67, 123);
+        background: linear-gradient(0deg, rgba(32, 67, 123,0.9) 0%, rgba(32, 67, 123,0.9) 0%, rgba(105, 33, 285,0.9) 55%);
+        height: 480px;
+        width: 90%;
+        border-radius: 15px;
+        color: #fff;
+        font-family: 'Graphik Regular';
+    }
+    .card2 img{
+        width: 80px;
+        margin-top: 2rem;
+    }
+    .card2 p{
+        line-height: 0;
+        font-size: 13px;
+    }
+    .cardBox:last-child {
+        margin-bottom: 3%;
+    }
+    .card {
+        height: 450px;
+    }
+    .front img{
+        width: 120px;
+        margin-top: 5rem;
+    }
+    .back img{
+        width: 80px;
+    }
+    .back p{
+       font-size: 10px;
+    }
+    .cards-world{
+        height: 200px;
+        margin-top: 0;
+    }
+    .bg-world{
+        margin-bottom: 1200px;
+    }
+    .cards-who{
+        margin-left: 2rem;
+    }
+    .cards-world{
+        margin-left: 2rem;
+    }
+    .bg-index{
+        background-image: url('../img/bg-index_movil.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 70vh;
+        position: relative;
+    }
+    .logo-hire{
+        width: 250px;
+    }
+    .slider{
+        width: 100%;
+    }
+    .testimonials .item{
+        width: 15rem;
+    }
+    .cards-world h5{
+        padding-top: 1rem;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .text-index{
+        margin-top: 0;
+    }
+    .tit-dreams{
+        margin-top: 0;
+    }
+    .svg_1{
+        visibility: hidden;
+    }
+    .menu-tablet{
+        visibility: visible;
+        margin-top: -8rem;
+        z-index: 3;
+    }
+    .header-line_1{
+        border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+        margin-top: 300px;
+        height: 300px;
+    }
+    .header-line_2{
+        border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+        margin-top: 300px;
+        height: 300px;
+        margin-left: 90px;
+    }
+    .header-line_3{
+        border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+        margin-top: 300px;
+        height: 300px;
+        margin-left: 90px;
+    }
+    .header-line_4{
+        border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+        margin-top: 300px;
+        height: 300px;
+        margin-left: 90px;
+    }
+    .header-line_5{
+        border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+        margin-top: 200px;
+        height: 400px;
+        margin-left: 90px;
+    }
+    .header-line_6{
+        border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+        margin-top: 300px;
+        height: 300px;
+        margin-left: 90px;
+    }
+    .header-line_7{
+        border-right: 1.4px solid rgba(255, 255, 255, 0.3);
+        margin-top: 300px;
+        height: 300px;
+        margin-left: 90px;
+    }
+    .div-loader.loader {
+        padding: 2px;
+        background-color:#fff;
+        width: 20%;
+        position: relative;
+        box-shadow: 0 0 10px #000;
+        -webkit-animation: aaa 5s;
+    }
+    @-webkit-keyframes aaa {
+        0%, 5% { 
+            width: 0%;  
+        }
+        10%, 20% { 
+            width: 10%;  
+        }
+        30%, 50% { 
+            width: 15%;  
+        }
+        100% { 
+            width: 20%;  
+        }
+    }
+    .menu-web{
+        visibility: hidden;
+        z-index: 2;
+    }
+    .vid-hire{
+        margin-top: 10px;
+    }
+    #Grupo_4961{
+        width: 100px;
+    }
+    .cardBox {
+        margin-left: 2.8%;
+        margin-top: 3%;
+        width: 45%;
+    }
+    .card2 {
+        height: 550px;
+    }
+    .cardBox:last-child {
+        margin-bottom: 3%;
+    }
+    .card{
+        width: 250px;
+        height: 430px;
+        border-radius: 15px;
+        border-color: #fff;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .card h5{
+        font-size: 19px;
+    }
+    .svg_1{
+        left: 32%;
+    }
+    .svg_2{
+        right: 12.2%;
+    }
+    .txt-hire-2 h1{
+        font-size: 30px;
+    }
+    .logo-hire{
+        width: 150px;
+    }
+    .anim-svg svg{
+        width: 100px;
+        margin-top: -30px;
+    }
+    .btn-contact{
+        height: 40px;
+    }
+    .txt-hire-2{
+        margin-top: 40px;
+    }
+    .cards-world{
+        margin-top: -100px;
+    }
+    .tit-world{
+        left: 20%;
+    }
+    .testimonials .item{
+        width: 13.5rem;
+    }
+        .showcase2{
+        min-height: 120vh;
+    }
+    .cards-world h5{
+        padding-top: 2rem;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1200px){
+    .text-index{
+        margin-top: 0;
+    }
+    .tit-dreams{
+        margin-top: 0;
+    }
+    .svg_1{
+       visibility: hidden;
+    }
+    .menu-tablet{
+        visibility: visible;
+        margin-top: -8rem;
+        z-index: 3;
+    }
+    .menu-web{
+        visibility: hidden;
+    }
+    .svg_1{
+        left: 35%;
+    }
+    .svg_2{
+        right: 10.2%;
+    }
+    .cardBox {
+        margin-left: 2.8%;
+        margin-top: 3%;
+        width: 50%;
+    }
+    .card{
+        width: 280px;
+        height: 480px;
+        border-radius: 15px;
+        border-color: #fff;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .txt-hire-2 h1{
+        font-size: 45px;
+    }
+    .bg-mundo h5{
+        font-size: 25px;
+    }
+    .bg-mundo p{
+        font-size: 14px;
+    }
+    .front h3{
+        font-size: 20px;
+    }
+    .txt-contracts p{
+        font-size: 14px;
+    }
+    .card h5{
+        font-size: 18px;
+    }
+    .cards-world{
+        margin-top: -150px;
+    }
+    .tit-world{
+        left: 20%;
+    }
+    .cardBox {
+        margin-left: 2.8%;
+        margin-top: 3%;
+        width: 45%;
+    }
+    .back p{
+        font-size: 14px;
+    }
+    .front h3{
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+    .back p{
+        font-size: 10px;
+    }
+    .txt-footer p{
+        font-size: 15px;
+        line-height: 115%;
+    }
+}
